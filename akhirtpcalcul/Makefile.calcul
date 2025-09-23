@@ -1,0 +1,13 @@
+CC = gcc
+CFLAGS = -I/usr/include/tirpc -lnsl -ltirpc
+
+all: calcul_server calcul_client
+
+calcul_server: calcul_server.c calcul_svc.c calcul_xdr.c
+	$(CC) $(CFLAGS) -o calcul_server calcul_server.c calcul_svc.c calcul_xdr.c
+
+calcul_client: calcul_client.c calcul_clnt.c calcul_xdr.c
+	$(CC) $(CFLAGS) -o calcul_client calcul_client.c calcul_clnt.c calcul_xdr.c
+
+clean:
+	rm -f calcul_server calcul_client
