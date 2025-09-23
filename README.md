@@ -7,11 +7,6 @@ This project demonstrates a simple distributed computation system. The client se
 <img width="230" height="23" alt="image" src="https://github.com/user-attachments/assets/fc16ac53-665e-4cc6-9179-6a7383cc6b29" />
 <img width="289" height="48" alt="image" src="https://github.com/user-attachments/assets/ace04af7-7cd9-4301-9c98-80e7643138b6" />
 # Projet rpc 
-# Systeme Repartie Projects
-
-This repository contains several **Distributed Systems (Système Réparti)** projects implemented in C and Java using **RPC** and **Sockets**.  
-
----
 
 ## Table of Contents
 
