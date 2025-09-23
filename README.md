@@ -1,5 +1,5 @@
 # SystemeRepartie
-Projects for the Distributed Systems module, including client-server communication, RPC implementations, and multi-process calculations in C.
+Projects for the Distributed Systems module, including client-server communication, RPC implementations, and multi-process calculations in C , ajava , and a tp of docker.
 
 here is some of the results:
 
